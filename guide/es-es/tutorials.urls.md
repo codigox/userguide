@@ -147,8 +147,6 @@ Sin embargo, Kohana también proporciona un método para generar el URL de la de
 
 Digamos que usted decidió más tarde hacer que la definición de la ruta sea más detallado al cambiarlo a `feeds/<user_id>(/<action>).<format>`. Si escribió el código con el método de generación url por encima de usted no tendría que cambiar una sola línea! Cuando una parte de la URI se encierra entre paréntesis y se especifica una clave que adolecen de ningún valor proporcionado para la generación de url y no tiene valor predeterminado especificado en la ruta, entonces esa parte se eliminará de la URL. Un ejemplo de ello es el `(/<id>)` parte de la ruta por defecto, lo que no se incluirá en el url generada si un identificador no está previsto.
 
-One method you might use frequently is the shortcut [Request::uri] which is the same as the above except it assumes the current route, directory, controller and action. If our current route is the default and the uri was `users/list`, we can do the following to generate uris in the format `users/view/$id`:
-
 Un método que podría utilizar con frecuencia es el atajo [Request::uri] que es el mismo que el anterior excepto que asume la ruta actual, el directorio, el controlador y la acción. Si nuestra ruta actual es la predeterminada y la URL es `users/list`, podemos hacer lo siguiente para generar urls en el formato de `users/view/$id`:
 
     $this->request->uri(array('action' => 'view', 'id' => $user_id));
