@@ -1,17 +1,17 @@
-<?php defined('SYSPATH') OR die('No direct access allowed.');
+<?php defined('SYSPATH') OR die('No se permite acceso directo al script.');
 
 return array
 (
-	// Default userguide page.
+	// Página predeterminada UserGuide.
 	'default_page' => 'about.kohana',
 
-	// Default the userguide language.
-	'lang'         => 'en-us',
+	// El idioma por defecto para UserGuide.
+	'lang'         => 'es-es',
 	
-	// Enable the API browser.  TRUE or FALSE
+	// Habilitar el explorador de la API.  TRUE or FALSE
 	'api_browser'  => TRUE,
 	
-	// Enable these packages in the API browser.  TRUE for all packages, or a string of comma seperated packages, using 'None' for a class with no @package
+	// Habilitar estos paquetes en el explorador de la API.  TRUE para todos los paquetes, o una cadena de paquetes separados por comas, con "None", una clase sin un @paquete
 	// Example: 'api_packages' => 'Kohana,Kohana/Database,Kohana/ORM,None',
 	'api_packages' => TRUE,
 );
