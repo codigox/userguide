@@ -1,8 +1,8 @@
-# Enrutamientos, URLs, y Enlaces
+# Rutas, URLs, y Enlaces
 
 Esta sección le proporcionará tener la idea básica de como Kohana crear solicitud de enrutamiento, la generación de URL y enlaces.
 
-## Enrutar
+## Rutas
 
 Como se mencionó en la sección [Request Flow] (about.flow), una petición es manejada por la clase [Request], que encuentra alguna coincidencia en el [Route] y carga el controlador adecuado para manejar la petición. Este sistema proporciona una gran flexibilidad, así como un comportamiento predeterminado sentido común.
 
