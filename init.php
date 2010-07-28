@@ -1,6 +1,6 @@
-<?php defined('SYSPATH') or die('No direct script access.');
+<?php defined('SYSPATH') or die('No se permite acceso directo al script.');
 
-// Static file serving (CSS, JS, images)
+// Archivo estática del servidor (CSS, JS, images)
 Route::set('docs/media', 'guide/media(/<file>)', array('file' => '.+'))
 	->defaults(array(
 		'controller' => 'userguide',
@@ -19,7 +19,7 @@ if (Kohana::config('userguide.api_browser') === TRUE)
 		));
 }
 
-// Translated user guide
+// Traducción guía del usuario
 Route::set('docs/guide', 'guide(/<page>)', array(
 		'page' => '.+',
 	))
