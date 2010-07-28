@@ -8,8 +8,6 @@ Usted es tan consciente, yo no está combinando bifurcaciones de bifurcaciones. 
     -- you/userguide-xx
     -- -- person/userguide-xx
 
-All changes from `person/userguide-xx` must be merged into your own repo, using `git merge` or the fork queue. See [github forking](http://help.github.com/forking/) for more information about how to merge remote repositories, and note that you will need to add a remote for `person/userguide-xx` using:
-
 Todos los cambios de 'person/userguide-xx' deben ser combinados en su propio repositor , usando `git merge` o la difurcacion. Mirar [github forking](http://help.github.com/forking/) para más información sobre como combinar repositores remotos, note que usted tendrá que añadir remotamente para la utilización `person/userguide-xx`:
 
     git remote add person git://github.com/person/userguide-xx
